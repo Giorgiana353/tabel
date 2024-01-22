@@ -24,7 +24,8 @@ namespace examen1
         {
             Persoana persoanaEx = new Persoana("Daniela", "Giorgiana", 2004);
 
-            Console.WriteLine($"Nume si prenume: {persoanaEx.FirstName} {persoanaEx.LastName}");
+            Console.WriteLine($"Nume: {persoanaEx.FirstName}");
+            Console.WriteLine($"Prenume: {persoanaEx.LastName}");
             Console.WriteLine($"Anul nasterii: {persoanaEx.YearOfBirth}");
             Console.WriteLine($"Varsta: {persoanaEx.Age} ani");
         }
